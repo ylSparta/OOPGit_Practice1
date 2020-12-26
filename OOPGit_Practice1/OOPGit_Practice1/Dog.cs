@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOPGit_Practice1
 {
-    public class Dog: Animal //sub: base class
+    public class Dog: Animal, IAnimalSound //sub: base class
     {
         public Dog() { }
 
